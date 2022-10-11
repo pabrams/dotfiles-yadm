@@ -46,7 +46,8 @@ keystate_capslock = enable
    control+shift + p
 
 "kmenuedit"
-   control+shift + bracketleft
+    m:0x4d + c:45
+    Control+Shift+Alt+Mod4 + k 
 
 # jumpapp
 "code"
@@ -74,7 +75,8 @@ keystate_capslock = enable
    Mod4 + t
 
 "konsole"
-   Mod4 + alt + t
+    m:0x48 + c:45
+    Alt+Mod4 + k 
 
 "jumpapp konsole"
    Mod4 + k
@@ -269,183 +271,9 @@ keystate_capslock = enable
 "wmctrl -c :ACTIVE:"
    Mod4 + shift + w
 
-"~/bin/pdfxchange.sh"
-   Mod4 + alt + p
-
-#"killall amarok; amarok --play"
-"killall chrome"
-   shift + Mod4 + alt + c
-
-"google-chrome"
-   shift + Mod4 + c
-
-# save window name to file
-"xdotool getactivewindow > ~/.window_y"
-    Mod4 + shift + y
-    # focus window with PID matching PID found in file 
-
-"~/bin/focus-window.sh $(cat ~/.window_y)"
-   release + Mod4 + y
-
-# "~/bin/focus-window.sh $(cat ~/.window_y)"
-"wmctrl -a 'HDFView'"
-   release + Mod4 + y
-
-# save window name to file
-"xdotool getactivewindow > ~/.window_b"
-    Mod4 + shift + b
-    # focus window with PID matching PID found in file 
-
-"~/bin/focus-window.sh $(cat ~/.window_b)"
-   release + Mod4 + b
-
-# save window name to file
-"xdotool getactivewindow > ~/.window_g"
-    Mod4 + shift + g
-    # focus window with PID matching PID found in file 
-
-"~/bin/focus-window.sh $(cat ~/.window_g)"
-   release + Mod4 + g
-
-# save window name to file
-"xdotool getactivewindow > ~/.window_f"
-    Mod4 + shift + f
-    # focus window with PID matching PID found in file 
-
-"~/bin/focus-window.sh $(cat ~/.window_f)"
-   release + Mod4 + f
-
-# save window name to file
-"xdotool getactivewindow > ~/.window_h"
-    Mod4 + shift + h
-    # focus window with PID matching PID found in file 
-
-# "~/bin/focus-window.sh $(cat ~/.window_h)"
-"wmctrl -a 0pera"
-   release + Mod4 + h
-
-# save window name to file
-"xdotool getactivewindow > ~/.window_t"
-    Mod4 + shift + t
-    # focus window with PID matching PID found in file 
-
-"~/bin/focus-window.sh $(cat ~/.window_t)"
-   release + Mod4 + t
-
-"wmctrl -a Writer"
-   release + Mod4 + t
-
-# save window name to file
-"xdotool getactivewindow > ~/.window_l"
-    Mod4 + shift + p
-    "~/bin/focus-window.sh $(cat ~/.window_l)" 
-
-# "wmctrl -a Vim; wmctrl -a 'NetBeans IDE'; wmcrtl -R 'NetBeans IDE'; xdotool key ctrl+0 " # hack hack
-"wmctrl -a knvim"
-   release + Mod4 + o
-
-# save window name to file
-"xdotool getactivewindow > ~/.window_e"
-    Mod4 + shift + e
-    # focus window with PID matching PID found in file 
-
-"~/bin/focus-window.sh $(cat ~/.window_e)"
-   Mod4 + e
-
-# save window name to file
-"xdotool getactivewindow > ~/.window_a"
-    Mod4 + shift + a
-    # focus window with PID matching PID found in file 
-
-"~/bin/focus-window.sh $(cat ~/.window_a)"
-   Mod4 + a
-
-# save window name to file
-"xdotool getactivewindow > ~/.window_n"
-    Mod4 + shift + n
-    # focus window with PID matching PID found in file 
-
-"~/bin/focus-window.sh $(cat ~/.window_n)"
-   Mod4 + n
-
-# Mod4 + o
-"xdotool getactivewindow > ~/.window_o"
-    Mod4 + shift + o
-    # "~/bin/focus-window.sh $(cat ~/.window_o)" 
-
-# "wmctrl -a 'RubyMine'; wmctrl -R 'RubyMine'"
-"~/bin/focus-intellij.sh"
-   Mod4 + l
-
-# save window name to file
-"xdotool getactivewindow > ~/.window_u"
-    Mod4 + shift + u
-    # focus window with PID matching PID found in file 
-
-"~/bin/focus-window.sh $(cat ~/.window_u)"
-   Mod4 + u
-
-"qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut 'Show Desktop'"
-   Mod4 + d
-
-# delete :TEST: string from window name
-"xdotool set_window --name "$(xdotool getwindowname $(xdotool getactivewindow) | sed -e 's/  :TEST://' -e 's/  :DEV://')" $(xdotool getactivewindow)"
-   Mod4 + period
-
-"wmctrl -a 'chrom'; wmctrl -R 'chrom'"
-    Mod4 + space
-    # "wmctrl -a pera1216; wmctrl -R 0pera1216" 
-
-"wmctrl -a 'chrom'; wmctrl -R 'chrom'; sleep .1; xdotool type t"
-    shift + Mod4 + space
-    # 
-
-"wmctrl -a Vivaldi; wmctrl -R Vivaldi"
-   Mod4 + alt + space
-
-"VirtualBox --startvm '7'"
-   Mod4 + Shift +  v
-
 # resize window
 "wmctrl -r :ACTIVE: -b remove,maximized_vert; wmctrl -r :ACTIVE: -e 0,-1,-1,930,500"
    Mod4 + shift + apostrophe
-
-# resize
-"~/bin/resize-window.sh"
-   Mod4 + semicolon
-
-# resize horizontal dimension
-"wmctrl -r :ACTIVE: -b remove,maximized_vert; wmctrl -r :ACTIVE: -e 0,-1,-1,1400,-1"
-   Mod4 + shift + semicolon
-
-# minimize active window
-"xdotool windowminimize $(xdotool getactivewindow)"
-   Mod4 + m
-
-# unlock android phone screen
-"adb shell input keyevent 26"
-   Mod4 + control + shift + a
-
-"test.sh"
-   Mod4 + control + shift + g
-
-"krunner"
-   alt + space
-
-# save window name to file
-"xdotool getactivewindow > ~/.window_x"
-    Mod4 + shift + x
-    # focus window with PID matching PID found in file 
-
-"~/bin/focus-window.sh $(cat ~/.window_x)"
-   release + Mod4 + x
-
-"xdotool getactivewindow > ~/.window_z"
-    Mod4 + shift + z
-    # focus window with PID matching PID found in file 
-
-"~/bin/focus-window.sh $(cat ~/.window_z)"
-   release + Mod4 + z
 
 ##
 "xdotool windowmove --relative $(xdotool getactivewindow) -50 -21"
@@ -476,24 +304,9 @@ keystate_capslock = enable
     Mod4 + shift + 8
     ## 
 
-"wmctrl -R 'NetBeans IDE'"
-    Mod4 + alt + b
-    "wmctrl -R 'NetBeans IDE'" 
-
-# "gvim --servername vim-server@$(hostname)"
-"wmctrl -R knvim"
-   Mod4 + v
-
 #"dolphin"
 "xdotool key --clearmodifiers Return"
    Control + b:3 + Release
-
-"~/bin/switch-keyboard-layout.sh"
-    Control + shift + k
-    "~/bin/switch-keyboard-layout.sh" 
-
-"~/bin/switch-keyboard-layout.sh"
-   Mod4 + F1
 
 "xdotool mousemove_relative +0 -10"
     shift + F7
@@ -514,29 +327,13 @@ keystate_capslock = enable
     shift + F5
     "xdotool mousemove_relative -- -100 +0" # left quicker 
 
-"qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut 'ShowDesktopGrid'"
-   alt + Mod4 + Tab
-
-"qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut 'ShowDesktopGrid'"
-   Mod4 + Escape
-
 # toggle maximized horizontal
 "wmctrl -r :ACTIVE: -b toggle,maximized_horz"
    alt + shift + 1
 
-# toggle maximized vertical
+# toggle maximized verticalcat 
 "wmctrl -r :ACTIVE: -b toggle,maximized_vert"
    alt + shift + 2
-
-"sudo cpupower frequency-set -g powersave; notify-send 'cpupower profile: powersave'"
-   Mod4 + Page_Down
-
-"sudo cpupower frequency-set -g ondemand; notify-send 'cpupower profile: ondemand'"
-   Mod4 + Page_Up
-
-# copy guillemotright symbol to clipboard
-"echo » | tr -d '\n'| xclip; sleep 1; xclip -o"
-   Mod4 + shift + period
 
 #
 # End of xbindkeys configuration
