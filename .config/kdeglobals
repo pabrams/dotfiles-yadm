@@ -6,117 +6,116 @@ ChangeSelectionColor=
 Color=56,56,56
 ColorAmount=0
 ColorEffect=0
-ContrastAmount=0.65
+ContrastAmount=0.30000000000000004
 ContrastEffect=1
 Enable=
-IntensityAmount=0.1
+IntensityAmount=-0.45000000000000001
 IntensityEffect=2
 
 [ColorEffects:Inactive]
-ChangeSelectionColor=false
-Color=112,111,110
+ChangeSelectionColor=true
+Color=0,255,0
 ColorAmount=0.025
 ColorEffect=2
 ContrastAmount=0.1
 ContrastEffect=2
-Enable=false
+Enable=true
 IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=77,77,77
-BackgroundNormal=0,0,255
+BackgroundAlternate=255,0,0
+BackgroundNormal=102,0,0
 DecorationFocus=255,255,0
-DecorationHover=85,85,0
-ForegroundActive=255,255,0
-ForegroundInactive=0,85,0
-ForegroundLink=0,255,255
+DecorationHover=255,0,0
+ForegroundActive=0,255,0
+ForegroundInactive=0,102,0
+ForegroundLink=0,188,212
 ForegroundNegative=255,0,0
-ForegroundNeutral=85,0,0
-ForegroundNormal=170,255,0
+ForegroundNeutral=102,102,0
+ForegroundNormal=255,255,0
 ForegroundPositive=255,255,0
-ForegroundVisited=85,0,127
+ForegroundVisited=102,0,102
 
 [Colors:Complementary]
-BackgroundAlternate=36,36,36
-BackgroundNormal=31,31,31
-DecorationFocus=255,162,0
-DecorationHover=255,162,0
-ForegroundActive=255,162,0
-ForegroundInactive=180,113,31
-ForegroundLink=180,113,31
-ForegroundNegative=83,62,37
-ForegroundNeutral=83,62,37
-ForegroundNormal=239,240,241
-ForegroundPositive=255,162,0
-ForegroundVisited=110,65,40
+DecorationFocus=0,102,0
+DecorationHover=102,102,0
+ForegroundInactive=102,51,0
+ForegroundNormal=255,102,0
 
 [Colors:Selection]
-BackgroundAlternate=180,113,31
-BackgroundNormal=0,0,255
+BackgroundAlternate=7,7,7
+BackgroundNormal=0,0,102
 DecorationFocus=255,255,0
-DecorationHover=85,85,0
-ForegroundActive=255,255,0
-ForegroundInactive=170,0,255
+DecorationHover=255,0,0
+ForegroundActive=0,255,0
+ForegroundInactive=102,0,102
 ForegroundLink=0,255,255
 ForegroundNegative=255,0,0
-ForegroundNeutral=85,0,0
+ForegroundNeutral=255,0,0
 ForegroundNormal=255,0,255
 ForegroundPositive=255,255,0
-ForegroundVisited=85,0,127
+ForegroundVisited=102,0,102
 
 [Colors:Tooltip]
-BackgroundAlternate=31,31,31
-BackgroundNormal=0,0,255
+BackgroundAlternate=102,102,0
+BackgroundNormal=0,0,102
 DecorationFocus=255,255,0
-DecorationHover=85,85,0
-ForegroundActive=255,255,0
-ForegroundInactive=0,85,0
+DecorationHover=255,0,0
+ForegroundActive=0,255,0
+ForegroundInactive=102,0,102
 ForegroundLink=0,255,255
 ForegroundNegative=255,0,0
-ForegroundNeutral=85,0,0
-ForegroundNormal=255,0,0
+ForegroundNeutral=102,102,0
+ForegroundNormal=255,0,255
 ForegroundPositive=255,255,0
-ForegroundVisited=85,0,127
+ForegroundVisited=102,0,102
 
 [Colors:View]
-BackgroundAlternate=32,32,32
+BackgroundAlternate=0,0,0
 BackgroundNormal=0,0,0
 DecorationFocus=255,255,0
-DecorationHover=85,85,0
-ForegroundActive=255,255,0
-ForegroundInactive=0,85,0
-ForegroundLink=0,255,255
+DecorationHover=255,0,0
+ForegroundActive=0,255,0
+ForegroundInactive=0,102,0
+ForegroundLink=77,212,212
 ForegroundNegative=255,0,0
-ForegroundNeutral=85,0,0
+ForegroundNeutral=102,102,0
 ForegroundNormal=0,255,0
 ForegroundPositive=255,255,0
-ForegroundVisited=85,0,127
+ForegroundVisited=102,0,102
 
 [Colors:Window]
-BackgroundAlternate=0,0,127
+BackgroundAlternate=77,77,77
 BackgroundNormal=0,0,0
 DecorationFocus=255,255,0
-DecorationHover=85,85,0
-ForegroundActive=255,255,0
-ForegroundInactive=85,85,0
-ForegroundLink=0,255,255
+DecorationHover=255,0,0
+ForegroundActive=0,255,0
+ForegroundInactive=0,102,0
+ForegroundLink=0,188,212
 ForegroundNegative=255,0,0
-ForegroundNeutral=85,0,0
-ForegroundNormal=0,255,0
+ForegroundNeutral=102,102,0
+ForegroundNormal=0,255,255
 ForegroundPositive=255,255,0
-ForegroundVisited=85,0,127
+ForegroundVisited=102,0,102
 
 [DirSelect Dialog]
 DirSelectDialog Size=841,588
 History Items[$e]=file:$HOME/Pictures,file:$HOME/Downloads,file:///run/media/i/The Grandfather/file,file:///run/media/i/The Grandfather/viewables/porn,file:///run/media/i/The Grandfather/viewables/porn/file,file:///run/media/i/The Grandfather/viewables,file:$HOME/Pictures
 
 [General]
-ColorSchemeHash=f6286bbc21f627650a5a467fe977f5ca401d5de6
+ColorSchemeHash=2ba39c9bcdfc1fbd2adae2024f298b2ccfcec460
+XftHintStyle=hintslight
+XftSubPixel=none
 accentColorFromWallpaper=false
+fixed=Source Code Pro Light,12,-1,5,25,0,0,0,0,0,Regular
+font=Noto Sans Batak,12,-1,5,50,0,0,0,0,0
+menuFont=Source Code Pro Light,12,-1,5,25,0,0,0,0,0,Regular
+smallestReadableFont=Noto Sans Arabic UI,10,-1,5,50,0,0,0,0,0
+toolBarFont=Noto Sans Rejang,12,-1,5,50,0,0,0,0,0
 
 [Icons]
-Theme=Fancy-Dark-Icons
+Theme=Lyra-widow
 
 [KDE]
 LookAndFeelPackage=com.github.zayronxio.Deepin2022-dark
@@ -156,9 +155,10 @@ Print=
 Redo=Ctrl+Shift+Z; Ctrl+Y
 
 [WM]
-activeBackground=0,0,255
-activeBlend=0,0,255
-activeForeground=255,255,0
-inactiveBackground=0,0,127
-inactiveBlend=85,0,127
-inactiveForeground=85,85,0
+activeBackground=0,0,102
+activeBlend=102,0,0
+activeFont=Inconsolata,14,-1,5,50,0,0,0,0,0
+activeForeground=255,0,255
+inactiveBackground=0,0,0
+inactiveBlend=102,0,0
+inactiveForeground=102,102,0
