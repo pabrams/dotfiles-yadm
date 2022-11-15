@@ -107,10 +107,6 @@ keystate_capslock = enable
 "WINDOW_WIDTH=$((`xwininfo -id \`xdotool getactivewindow\`|grep Width|cut -d: -f2`+50)); wmctrl -r :ACTIVE: -b remove,maximized_horz; wmctrl -r :ACTIVE: -e 0,-1,-1,$WINDOW_WIDTH,-1"
    Mod4 + control + shift + l
 
-#"konsole"
-"qdbus org.kde.amarok /amarok/MainWindow org.kde.amarok.MainWindow.showHide; sleep .01; wmctrl -a amarok; wmctrl -R amarok"
-   release + Mod4 + s
-
 # map win+0 to PageDown
 "xdotool key --clearmodifiers Next"
    Mod4 +  0
@@ -227,49 +223,46 @@ keystate_capslock = enable
 "xdotool key --clearmodifiers BackSpace"
    control +  Mod4 + u
 
-# click LMB
-"xdotool click 1"
-   Mod4 + i
+# # click LMB
+# "xdotool click 1"
+#    Mod4 + i
 
-"xdotool click 3"
-   Mod4 + shift + i
+# "xdotool click 3"
+#    Mod4 + shift + i
 
-"echo -en »|xclip"
-   Mod4 + alt + g
+# "echo -en »|xclip"
+#    Mod4 + alt + g
 
-# move cursor
-"xdotool mousemove_relative +0 +10"
-   Mod4 + alt + j
+# # move cursor
+# "xdotool mousemove_relative +0 +10"
+#    Mod4 + alt + j
 
-"xdotool mousemove_relative +0 -10"
-   Mod4 + alt + k
+# "xdotool mousemove_relative +0 -10"
+#    Mod4 + alt + k
 
-"xdotool mousemove_relative +10 +0"
-   Mod4 + alt + l
+# "xdotool mousemove_relative +10 +0"
+#    Mod4 + alt + l
 
-# NOTE: use "--" parameter before negative coordinates
-"xdotool mousemove_relative -- -10 +0"
-   Mod4 + alt + h
+# # NOTE: use "--" parameter before negative coordinates
+# "xdotool mousemove_relative -- -10 +0"
+#    Mod4 + alt + h
 
-# NOTE: use "--" parameter before negative coordinates
-"xdotool mousemove_relative +200 +0"
-   Mod4 + alt + shift + l
+# # NOTE: use "--" parameter before negative coordinates
+# "xdotool mousemove_relative +200 +0"
+#    Mod4 + alt + shift + l
 
-# NOTE: use "--" parameter before negative coordinates
-"xdotool mousemove_relative -- -200 +0"
-   Mod4 + alt + shift + h
+# # NOTE: use "--" parameter before negative coordinates
+# "xdotool mousemove_relative -- -200 +0"
+#    Mod4 + alt + shift + h
 
-# NOTE: use "--" parameter before negative coordinates
-"xdotool mousemove_relative -- 0 -100"
-   Mod4 + alt + shift + k
+# # NOTE: use "--" parameter before negative coordinates
+# "xdotool mousemove_relative -- 0 -100"
+#    Mod4 + alt + shift + k
 
-# NOTE: use "--" parameter before negative coordinates
-"xdotool mousemove_relative -- 0 +100"
-   Mod4 + alt + shift + j
+# # NOTE: use "--" parameter before negative coordinates
+# "xdotool mousemove_relative -- 0 +100"
+#    Mod4 + alt + shift + j
 
-# kill/close active window
-"wmctrl -c :ACTIVE:"
-   Mod4 + shift + w
 
 # resize window
 "wmctrl -r :ACTIVE: -b remove,maximized_vert; wmctrl -r :ACTIVE: -e 0,-1,-1,930,500"

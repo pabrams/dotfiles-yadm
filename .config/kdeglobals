@@ -104,7 +104,7 @@ DirSelectDialog Size=841,588
 History Items[$e]=file:$HOME/Pictures,file:$HOME/Downloads,file:///run/media/i/The Grandfather/file,file:///run/media/i/The Grandfather/viewables/porn,file:///run/media/i/The Grandfather/viewables/porn/file,file:///run/media/i/The Grandfather/viewables,file:$HOME/Pictures
 
 [General]
-BrowserApplication=firefox.desktop
+BrowserApplication=google-chrome.desktop
 ColorSchemeHash=2ba39c9bcdfc1fbd2adae2024f298b2ccfcec460
 XftHintStyle=hintslight
 XftSubPixel=none
