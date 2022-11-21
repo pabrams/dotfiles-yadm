@@ -80,7 +80,7 @@
     # (see https://dystroy.org/broot/icons for installation and
     # troubleshooting)
     #
-    # icon_theme: vscode
+    icon_theme: vscode
 
     ###############################################################
     # Special paths
@@ -136,10 +136,10 @@
     # uncomment and modify the next section if you want to color
     # file name depending on their extension
     #
-    # ext_colors: {
-    #     png: rgb(255, 128, 75)
-    #     rs: yellow
-    # }
+    ext_colors: {
+        png: rgb(255, 128, 75)
+        rs: yellow
+    }
 
 
     ###############################################################
