@@ -144,6 +144,9 @@ Sort reversed=false
 Speedbar Width=133
 View Style=DetailTree
 
+[KScreen]
+ScreenScaleFactors=DVI-D-0=1;HDMI-0=1;DP-0=1;DP-1=1;DP-2=1;DP-3=1;DP-4=1;DP-5=1;
+
 [KShortcutsDialog Settings]
 Dialog Size=600,480
 
