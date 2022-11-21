@@ -1,0 +1,9 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "workbench.colorTheme": "Trade Wars 2002 Color Theme",
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 3
+}
